@@ -34,12 +34,19 @@ jQuery version 1.6.0 or higher
 **Browser compatibility**
 
 Internet Explorer 8+
+
 Firefox
+
 Chrome
+
 Opera
+
 Safari
+
 iOS
+
 Android
+
 Windows Phone
 
 
