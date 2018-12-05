@@ -1,6 +1,6 @@
 
 # NUI html compare tool 
-is a highly customizable html compare tool. Feature include: 
+is a highly customizable html compare tool. Features include: 
 
 Comparison of two html fragements and returns the comparison result in html form.
 
@@ -14,9 +14,9 @@ Final html can be appended to other element if target is passed.
 
 Compare and clear methods are exposed. compare do the html comparison and retruns the compared html and clear removes appended html from target.
 
-Manual
+**Manual**
 
-Usage
+**Usage**
 Manual:  var  _.tool = new NUI.CompareTool({
             oldHtml: inputOldHtml,
             newHtml: inputNewHtml,
@@ -25,12 +25,12 @@ Manual:  var  _.tool = new NUI.CompareTool({
        var comparisonResult = _.tool.compare();
        
 
-Requirements
+**Requirements**
 
 jQuery version 1.6.0 or higher
 
 
-Browser compatibility
+**Browser compatibility**
 
 Internet Explorer 8+
 Firefox
@@ -42,7 +42,7 @@ Android
 Windows Phone
 
 
-License
+**License**
 
 MIT License (MIT)
 
