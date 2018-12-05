@@ -17,7 +17,8 @@ Compare and clear methods are exposed. compare do the html comparison and retrun
 **Manual**
 
 **Usage**
-Manual:  var  _.tool = new NUI.CompareTool({
+
+**Manual**:  var  _.tool = new NUI.CompareTool({
             oldHtml: inputOldHtml,
             newHtml: inputNewHtml,
             target: targetSelector
