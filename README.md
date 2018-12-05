@@ -12,6 +12,8 @@ Added tags/text are shown in green.
 
 Final html can be appended to other element if target is passed.
 
+Compare and clear methods are exposed. compare do the html comparison and retruns the compared html and clear removes appended html from target.
+
 Manual
 
 Usage
