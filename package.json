@@ -1,28 +1,24 @@
 {
-  "name": "--nui-html-compare",
+  "name": "nui-html-compare-plugin",
   "version": "1.0.0",
+  "author": "Pushpdeep Gupta <pushpdeepamity@gmail.com>",
   "description": "Highly customizable  UI html compare tool plugin.",
-  "main": "nui.compare.html.min.js",
-  "directories": {
-    "example": "example"
-  },
-  "scripts": {
-    "test": "npm i mocha -D"
-  },
+  "main": "./js/nui.compare.html.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PushpMicrosoft123/NUI-html-compare.git"
+    "url": "https://github.com/PushpMicrosoft123/NUI-html-compare.git"
   },
   "keywords": [
-    "author:",
-    "Pushpdeep",
-    "Gupta",
-    "<pushpdeepamity@gmail.com>"
+    "compare-tool",
+    "html-compare",
+    "jquery-plugin"
   ],
-  "author": "Pushpdeep Gupta <pushpdeepamity@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/PushpMicrosoft123/NUI-html-compare/issues"
   },
+   "dependencies": {
+"jquery": ">=1.6",
+   },
   "homepage": "https://github.com/PushpMicrosoft123/NUI-html-compare#readme"
 }
