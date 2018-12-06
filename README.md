@@ -1,6 +1,6 @@
 
 # NUI html compare tool 
-is a highly customizable html compare tool [Demo](https://pushpmicrosoft123.github.io/). Features include: 
+is a highly customizable html compare tool [(Demo)](https://pushpmicrosoft123.github.io/). Features include: 
 - Comparison of two html fragements and returns the comparison result in html form.
 - Exhibit the comparison using styling(background color).
 - Deleted tags/text are shown in red.
