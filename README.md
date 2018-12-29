@@ -9,6 +9,7 @@ is a highly customizable html compare tool [(Demo)](https://pushpmicrosoft123.gi
 - Compare and clear methods are exposed. compare do the html comparison and retruns the compared html and clear removes appended html from target.
 - This version allows users to pass their css class for added/ deleted tags.
 
+
 ## Bug fixes
 - For some of the added/deleted tags css were not applying.
 
