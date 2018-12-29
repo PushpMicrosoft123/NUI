@@ -7,6 +7,11 @@ is a highly customizable html compare tool [(Demo)](https://pushpmicrosoft123.gi
 - Added tags/text are shown in green.
 - Final html can be appended to other element if target is passed.
 - Compare and clear methods are exposed. compare do the html comparison and retruns the compared html and clear removes appended html from target.
+- This version allows users to pass their css class for added/ deleted tags.
+
+
+## Bug fixes
+- For some of the added/deleted tags css were not applying.
 
 ## Installation
 
@@ -19,7 +24,9 @@ npm: ```npm i nui-html-compare-plugin```
  var  _.tool = new NUI.CompareTool({
             oldHtml: inputOldHtml,
             newHtml: inputNewHtml,
-            target: targetSelector
+            target: targetSelector,
+	    addedCss: 'added',
+            deletedCss:'deleted'
         });
        var comparisonResult = _.tool.compare();
 ```       
