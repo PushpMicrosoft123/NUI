@@ -1,4 +1,4 @@
-// Type definitions for Compare Tool
+// Type definitions for Compare Tool v1.1
 
 // Definitions by: Pushpdeep Gupta
 
@@ -22,6 +22,10 @@ declare namespace NUI {
         newHtml: string;
 
         target?: string;
+
+        addedCss?: string;
+
+        deletedCss?: string;
     }
 
     class Options implements IOptions {
@@ -31,7 +35,11 @@ declare namespace NUI {
 
         target?: string;
 
-        constructor(oldHtml: string, newHtml: string, target?: string);
+        addedCss?: string;
+
+        deletedCss?: string;
+
+        constructor(oldHtml: string, newHtml: string, target?: string, addedCss?: string, deletedCss?: string);
     }
 
     class CompareTool implements ICompareTool {
