@@ -23,7 +23,9 @@ npm: ```npm i nui-html-compare-plugin```
  var  _.tool = new NUI.CompareTool({
             oldHtml: inputOldHtml,
             newHtml: inputNewHtml,
-            target: targetSelector
+            target: targetSelector,
+	    addedCss: 'added',
+            deletedCss:'deleted'
         });
        var comparisonResult = _.tool.compare();
 ```       
